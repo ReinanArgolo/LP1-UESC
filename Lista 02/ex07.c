@@ -15,7 +15,7 @@ int main(void)
     printf("%c\t", r);
 
     printf("%c\n", r);
-     printf("%c\t", r);
+    printf("%c\t", r);
 
     printf("%c\n", r);
     printf("%c", r);
