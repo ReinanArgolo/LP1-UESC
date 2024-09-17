@@ -1,11 +1,10 @@
 #include <stdlib.h>
 #include <stdio.h>
-#include <math.h>
 
 int main(int argc, char const *argv[]) {
 
 int num;
-printf("Digite um número inteiro de 5 dígitos: ");
+printf("Digite um numero inteiro de 5 digitos: ");
 scanf("%d", &num);
 
 if (num < 10000 || num > 99999) {
