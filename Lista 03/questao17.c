@@ -4,12 +4,13 @@
 
 int main() {
     int n, i, j;
-    float x, soma = 1, fatI;
+    float x, soma = 0, fatI;
     
     printf("Digite o valor de n: ");
-    scanf("%d", &n);
+    scanf(" %d", &n);
+    
     printf("Digite o valor de x: ");
-    scanf("%f", &x);
+    scanf(" %f", &x);
 
     if (x < 0 || n < 0)
     {
