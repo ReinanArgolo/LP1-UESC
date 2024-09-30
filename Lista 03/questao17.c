@@ -3,21 +3,28 @@
 #include <math.h>
 
 int main() {
-    int n, X = 0, fatorial = 0 ;
+    int n, i, j;
+    float x, soma = 1, fatI;
+    
     printf("Digite o valor de n: ");
     scanf("%d", &n);
+    printf("Digite o valor de x: ");
+    scanf("%f", &x);
 
-    for(int i = 1; i <= n; i++) {
-       int sumFat = 1;
-       int sumX = 1;
-       for(int j = 1; j <= i; j++) {
-        sumFat *= j;
-       }
-
-        fatorial += sumFat;
-
-        X += pow(n, i);
+    if (x < 0 || n < 0)
+    {
+        printf("por favor, digite um valor positivo para x e n\n");
+        return 0;
     }
-    printf("%d", 1+(X/fatorial));
+    
+    for(i = 0; i <= n; i++) {
+       fatI = 1;
+       for(j = 1; j <= i; j++) {
+        fatI *= j;
+       }
+       soma += pow(x, i)/fatI;
+        
+    }
+    printf("O valor de e^x é: %.2f\n", soma);
 }
 
