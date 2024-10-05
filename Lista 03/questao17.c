@@ -3,7 +3,7 @@
 
 int main() {
     int n, i;
-    float x, pot = 1,  soma = 1, fatI = 1;
+    float x, pot = 1, soma = 1.0, fatI = 1;
     
     printf("Digite o valor de n: ");
     scanf(" %d", &n);
