@@ -11,8 +11,11 @@ int main() {
     scanf("%d", &n);
     
     for (int i = 0; i < n; i++) {
-        printf("Digite a dupla de números inteiros (a b): ");
-        scanf("%d %d", &a, &b);
+        printf("Digite o primeiro número inteiro (a): ");
+    	scanf("%d", &a);
+
+        printf("Digite o segundo número inteiro (b): ");
+        scanf("%d", &b); 
         
         if (multiplo(a, b)) {
             printf("%d é múltiplo de %d\n", b, a);
