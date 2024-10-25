@@ -7,7 +7,7 @@
 int sortearNumero();
 
 int main() {
-    setlocale(LC_ALL, "pt_BR.UTF-8");
+    setlocale(LC_ALL,"");
 
     int numRand, chute;
 
