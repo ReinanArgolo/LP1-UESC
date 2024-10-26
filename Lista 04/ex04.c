@@ -26,6 +26,8 @@ int perfeito(int num) {
     return (sum == num) ? 1 : 0;
 }
 
+
+
 void imprimirFator(int num) {
     printf("Os fatores de %d = ", num);
     for(int i = 1; i < num; i++) {
