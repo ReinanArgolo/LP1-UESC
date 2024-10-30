@@ -3,7 +3,6 @@
 #include <time.h>
 
 int jogada();
-void somarJogada();
 
 int main() {
 
@@ -16,7 +15,7 @@ int main() {
             cara++;
         } else {
             coroa++;
-    }
+        }
     }
 
     printf("CARA: %d\n", cara);
