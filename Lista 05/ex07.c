@@ -2,7 +2,6 @@
 #define SIZE 20
 #include <time.h>
 
-
 void preencherVetor(int vetor1[], int vetor2[]);
 void reorganizarVetor(int vetor1[], int vetor2[], int vetor3[]);
 void imprimirVetor(int vetor[]);
