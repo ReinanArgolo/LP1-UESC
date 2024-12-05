@@ -26,5 +26,7 @@ void calcularTrajeto(int m[][COL], int rota[], int *soma) {
     *soma = 0;
     for(int i = 0; i <LIN - 1; i++) {
        *soma += m[rota[i]-1][rota[i+1] - 1]; 
+       printf("a %d\n", rota[i]-1);
+       printf("b %d\n", rota[i+1]-1);
     }
 }
