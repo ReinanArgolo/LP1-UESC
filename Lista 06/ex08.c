@@ -7,6 +7,7 @@ int verificarAnagrama(char [], char [], char [], char []);
 void contarLetra(char, char []);
 
 int main(void) {
+    
     char str1[MAX] = {'R', 'O', 'M', 'V', '\0'};
     char str2[MAX] = {'A', 'M', 'O', 'R', '\0'};
     char letras1[LETRAS] = {};
